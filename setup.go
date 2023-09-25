@@ -16,6 +16,7 @@ func SetupJsonLogging(serviceId string) {
 	zerolog.TimestampFieldName = "@timestamp"
 	zerolog.LevelFieldName = "log.level"
 	zerolog.MessageFieldName = "message" // correct by default
+	zerolog.ErrorFieldName = "error.message"
 
 	log.Logger = zerolog.New(os.Stdout).With().
 		Timestamp().
