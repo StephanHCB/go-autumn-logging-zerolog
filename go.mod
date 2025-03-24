@@ -4,5 +4,5 @@ go 1.14
 
 require (
 	github.com/StephanHCB/go-autumn-logging v0.4.0
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/zerolog v1.34.0
 )
